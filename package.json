@@ -1,6 +1,7 @@
 {
   "name": "inn-webshop-demo",
   "version": "1.0.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.6.3",
     "@opplysningen1881/inn-js": "1.0.1",
@@ -16,6 +17,11 @@
     "redux-form": "8.1.0",
     "redux-promise": "0.6.0",
     "smoothscroll-polyfill": "0.4.3"
+  },
+  "homepage": "https://inn-webshop-demo.capra.tv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opp1881/INN-Webshop-Demo"
   },
   "scripts": {
     "start": "PORT=3002 react-scripts start",
