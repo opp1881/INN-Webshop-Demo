@@ -24,8 +24,7 @@ innClient.init({
   appName: /localhost/.test(window.location.origin)
     ? 'inn-js-locally'
     : `INN-Webshop-Demo${SITE === 'site2' ? '-2' : ''}`,
-  mode: 'development',
-  requireConsent: true
+  mode: 'development'
 });
 
 const App = () => (
