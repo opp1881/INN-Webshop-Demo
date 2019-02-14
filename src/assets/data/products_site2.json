@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Awesome leather shoes",
+    "price": 499,
+    "imgSrc": "/images/leather.jpg",
+    "description": ""
+  },
+  {
+    "id": "2",
+    "name": "Awesome boots",
+    "price": 899,
+    "imgSrc": "/images/boots.jpg",
+    "description": ""
+  },
+  {
+    "id": "3",
+    "name": "Awesome sneakers",
+    "price": 599,
+    "imgSrc": "/images/sneakers.jpg",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "name": "Awesome sandals",
+    "price": 699,
+    "imgSrc": "/images/sandals.jpg",
+    "description": ""
+  }
+]

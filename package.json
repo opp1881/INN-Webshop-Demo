@@ -1,0 +1,33 @@
+{
+  "name": "inn-webshop-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.6.3",
+    "@opplysningen1881/inn-js": "1.0.1",
+    "bootstrap": "4.2.1",
+    "prop-types": "15.6.2",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-redux": "6.0.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "reactstrap": "7.0.2",
+    "redux": "4.0.1",
+    "redux-form": "8.1.0",
+    "redux-promise": "0.6.0",
+    "smoothscroll-polyfill": "0.4.3"
+  },
+  "scripts": {
+    "start": "PORT=3002 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "2.13.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

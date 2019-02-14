@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.App-logo {
+  height: 50px;
+}
+
+.App-header,
+.App-footer {
+  background-color: #215da2;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.site2 .App-header,
+.site2 .App-footer {
+  background-color: #17a2b8;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.btn-img {
+  border: #0077cc solid 1px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.btn-img img {
+  max-width: 75px;
+  margin: 10px;
+}
+
+.btn-inn {
+  color: #fff;
+  background-color: #215da2;
+  border-color: #007bff;
+}
+
+.btn-inn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-inn:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-inn:not(:disabled):not(.disabled).active,
+.btn-inn:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.site2 .btn-inn {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.site2 .btn-inn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+.site2 .btn-inn:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.site2 .btn-inn:not(:disabled):not(.disabled).active,
+.site2 .btn-inn:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #117a8b;
+  border-color: #10707f;
+}
+
+input.form-control::placeholder {
+  color: #c7c5c5;
+}

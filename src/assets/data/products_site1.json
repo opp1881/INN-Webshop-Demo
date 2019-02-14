@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Awesome Washing machine",
+    "price": 4999,
+    "imgSrc": "/images/washer.jpg",
+    "description": "The best washing machine in the world"
+  },
+  {
+    "id": "2",
+    "name": "Awesome Laptop",
+    "price": 5999,
+    "imgSrc": "/images/laptop.jpg",
+    "description": "The best laptop in the world"
+  },
+  {
+    "id": "3",
+    "name": "Awesome Flat-screen TV",
+    "price": 8999,
+    "imgSrc": "/images/tv.jpg",
+    "description": "The best TV in the world"
+  },
+  {
+    "id": "4",
+    "name": "Awesome smartphone",
+    "price": 9999,
+    "imgSrc": "/images/phone.jpg",
+    "description": "The best smartphone in the world"
+  }
+]
