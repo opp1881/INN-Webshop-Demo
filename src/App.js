@@ -24,7 +24,10 @@ innClient.init({
   appName: /localhost/.test(window.location.origin)
     ? 'inn-js-locally'
     : `INN-Webshop-Demo${SITE === 'site2' ? '-2' : ''}`,
-  mode: 'development'
+  mode: 'development',
+  profileUrl: 'https://inn-qa-sso.capra.tv/oidsso/js/inn/inn-background.png',
+  profileBackgroundUrl: 'https://inn-qa-sso.capra.tv/oidsso/welcome',
+  proxyUrl: 'https://inn-qa-spaproxy.capra.tv/proxy'
 });
 
 const App = () => (
