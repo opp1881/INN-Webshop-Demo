@@ -9,11 +9,21 @@ import {
   CardText,
   CardTitle
 } from 'reactstrap';
+import { scroller } from 'react-scroll';
 
 import { ProductType } from '../lib/types';
 
 const ProductListItem = ({ product, addProductToCart }) => {
   const { imgSrc, name, price, description } = product;
+
+  const addToCart = product => {
+      addProductToCart(product);
+      scroller.scrollTo('inn-checkout-button-container', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart'
+      });
+  };
 
   return (
     <Card className="shadow p-2 col-md-3">
@@ -28,7 +38,7 @@ const ProductListItem = ({ product, addProductToCart }) => {
       <CardFooter className={'bg-white'}>
         <button
           className="btn btn-inn btn-block"
-          onClick={() => addProductToCart(product)}>
+          onClick={() => addToCart(product)}>
           Add to cart
         </button>
       </CardFooter>

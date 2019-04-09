@@ -5,6 +5,7 @@ import innClient from '@opplysningen1881/inn-js';
 
 import { completeCheckout, getUserFromInn } from '../actions/checkout';
 import CheckoutForm from '../components/CheckoutForm';
+import { animateScroll as scroll} from 'react-scroll';
 
 const CheckoutContainer = ({
   completeCheckout,
@@ -22,6 +23,7 @@ const CheckoutContainer = ({
   const onSubmit = formValues => {
     completeCheckout(formValues);
     onCheckoutCompleted();
+    scroll.scrollToTop();
   };
 
   return (

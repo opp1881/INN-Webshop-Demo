@@ -16,6 +16,9 @@ const WebshopPageContainer = ({ history }) => {
       <CheckoutContainer onCheckoutCompleted={onCheckoutCompleted} />
     </div>
   );
+
 };
+
+
 
 export default WebshopPageContainer;

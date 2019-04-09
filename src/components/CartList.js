@@ -86,7 +86,7 @@ const CartList = ({
   }
 
   return (
-    <Table responsive>
+    <Table className="table table-fixed">
       {renderTableHeader(noDeleteColumn)}
       <tbody>
         {cart.map(cartItem =>

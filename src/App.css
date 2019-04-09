@@ -95,3 +95,12 @@
 input.form-control::placeholder {
   color: #c7c5c5;
 }
+
+.no-border {
+  border: 0;
+  box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.hide {
+  display:none;
+}
+
