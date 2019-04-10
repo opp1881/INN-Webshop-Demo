@@ -18,5 +18,11 @@ To specify which site to build, set environment variable `REACT_APP_SITE` equal 
 For example:
 
 ```
-set "REACT_APP_SITE=site1" && npm start
+$ set "REACT_APP_SITE=site1" && npm start
+```
+
+## Build
+
+```
+$ npm run build
 ```
