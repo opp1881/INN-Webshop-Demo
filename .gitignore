@@ -10,7 +10,6 @@
 /build
 /scripts
 deploy.sh
-Jenkinsfile
 
 # misc
 .DS_Store

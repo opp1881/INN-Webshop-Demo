@@ -12,12 +12,17 @@ Developed using Bootstrap, React and Redux.
 
 1. Step 1: Install dependencies - `npm install`
 2. Step 2: Run development server - `npm start`
-3. Step 3: Write code and profit!
 
 The site can be run/build as to different webstores(site1: "Elektro247", site2: "Sko247").<br>
 To specify which site to build, set environment variable `REACT_APP_SITE` equal to `site1` or `site2` before build.
 For example:
 
 ```
-set "REACT_APP_SITE=site1" && npm start
+$ set "REACT_APP_SITE=site1" && npm start
+```
+
+## Build
+
+```
+$ npm run build
 ```
