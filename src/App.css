@@ -104,3 +104,13 @@ input.form-control::placeholder {
   display:none;
 }
 
+.roundborder__card {
+  padding: 20px 20px 0;
+  display: block;
+  border-radius: 16px;
+  color: #333333;
+  cursor: pointer;
+  border: 2px solid #0077cc;
+  transition: background-color 250ms ease-in-out, border 250ms ease-in-out;
+  background-color: #fff;
+}

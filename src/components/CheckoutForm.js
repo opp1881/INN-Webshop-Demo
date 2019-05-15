@@ -93,7 +93,7 @@ class CheckoutForm extends Component {
         const addressText = [this.props.addressLine1, this.props.addressLine2, `${this.props.postalCode || ''} ${this.props.postalCity || ''}`];
         return (<div>
                 <CardDeck>
-                    <Card className="">
+                    <Card className="roundborder__card">
                         <CardBody>
                             <CardTitle>{this.props.fullName}</CardTitle>
                             <CardText>{this.props.company}</CardText>
