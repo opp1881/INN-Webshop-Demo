@@ -25,9 +25,9 @@ innClient.init({
     ? 'inn-js-locally'
     : `INN-Webshop-Demo${SITE === 'site2' ? '-2' : ''}`,
   mode: 'development',
-  profileUrl: 'https://inn-qa-sso.capra.tv/oidsso/js/inn/inn-background.png',
-  profileBackgroundUrl: 'https://inn-qa-sso.capra.tv/oidsso/welcome',
-  proxyUrl: 'https://inn-qa-spaproxy.capra.tv/proxy'
+  profileBackgroundUrl: 'https://inn-qa-sso.capra.tv/oidsso/js/inn/inn-background.png', //http://localhost:19997/oidsso/js/inn/inn-background.png
+  profileUrl: 'https://inn-qa-sso.capra.tv/oidsso/welcome', //http://localhost:19997/oidsso/welcome
+  proxyUrl: 'https://inn-qa-spaproxy.capra.tv/proxy' //http://localhost:9898/proxy
 });
 
 const App = () => (
